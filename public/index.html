@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" href="img/pigeon-title.png" />
+    <title>Chat! | Login</title>
+  </head>
+  <body>
+    <div id="overlay">
+      <!-- <h1 id="connected">STAY CONNECTED!</h1> -->
+      <form action="/chat.html">
+        <input
+          type="text"
+          id="user"
+          name="username"
+          placeholder="username"
+          autofocus
+          autocomplete="off"
+          required
+        />
+        <!-- <input
+        type="text"
+        id="room"
+        name="room"
+        placeholder="room"
+        autocomplete="off"
+      /> -->
+        <label for="room" id="room_label">Room</label>
+        <select name="room" id="rooms">
+          <option value="Blood Bashers">Blood Bashers</option>
+          <option value="KillingSprees">KillingSprees</option>
+          <option value="Killer G69">Killer G69</option>
+          <option value="Psycho Vipers">Psycho Vipers</option>
+        </select>
+        <button>Join</button>
+      </form>
+    </div>
+  </body>
+</html>
